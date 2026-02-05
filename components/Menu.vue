@@ -113,5 +113,20 @@
         </div>
       </div>
     </div>
+
+    <!-- Descargar Menú Completo -->
+    <div class="mt-8 text-center">
+      <a
+        href="/downloads/menu1.pdf"
+        download="Menu-La-Choza-de-Lena.pdf"
+        class="inline-flex items-center justify-center gap-2 w-full bg-primary hover:bg-amber-700 text-white font-bold py-4 px-6 rounded-2xl shadow-lg active:scale-95 transition-all"
+      >
+        <span class="material-icons-round">download</span>
+        Ver Menú Completo (PDF)
+      </a>
+      <p class="text-xs text-text-muted-light dark:text-text-muted-dark mt-2">
+        Descargá el menú completo con todos nuestros platillos y precios.
+      </p>
+    </div>
   </section>
 </template>

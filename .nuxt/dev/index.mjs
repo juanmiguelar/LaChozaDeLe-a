@@ -730,7 +730,9 @@ const _inlineRuntimeConfig = {
     "baseURL": "/_ipx",
     "alias": {},
     "fs": {
-      "dir": []
+      "dir": [
+        "/Users/juan/Documents/github/juanmiguelar/LaChozaDeLe-a/public"
+      ]
     },
     "http": {
       "domains": []

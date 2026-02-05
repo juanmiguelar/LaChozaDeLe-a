@@ -5,7 +5,7 @@
       <h2 class="text-2xl font-display font-bold text-white mb-2">Visítanos</h2>
       <p class="text-sm mb-6">El mejor ambiente rústico en San Rafael Abajo.</p>
       <div class="flex justify-center gap-4 mb-6">
-        <a class="w-10 h-10 rounded-full bg-stone-800 flex items-center justify-center text-primary hover:bg-stone-700 transition" href="#" aria-label="Facebook">
+        <a class="w-10 h-10 rounded-full bg-stone-800 flex items-center justify-center text-primary hover:bg-stone-700 transition" href="https://www.facebook.com/lachozade.lena/?locale=es_LA" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
           <span class="material-icons-round">facebook</span>
         </a>
         <a class="w-10 h-10 rounded-full bg-stone-800 flex items-center justify-center text-primary hover:bg-stone-700 transition" href="https://instagram.com/lachoza_33" aria-label="Instagram">
