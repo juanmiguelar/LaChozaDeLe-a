@@ -28,9 +28,9 @@
     "allowImportingTsExtensions": true,
     "noEmit": true
   },
-  "exclude": ["node_modules"],
+  "files": [".nuxt/nuxt.d.ts"],
+  "exclude": ["node_modules", ".nuxt/**/*.{js,mjs,vue}"],
   "include": [
-    ".nuxt/nuxt.d.ts",
     "**/*"
   ]
 }

@@ -137,7 +137,7 @@
         "./imports"
       ],
       "#app-manifest": [
-        "./manifest/meta/dev.json"
+        "./manifest/meta/1982a6b1-31de-41c5-9dd9-09ddd29a0184.json"
       ],
       "#components": [
         "./components"
@@ -195,6 +195,6 @@
     "../node_modules/dist/runtime/server",
     "../node_modules/nuxt-site-config/dist/runtime/server",
     "../node_modules/nuxt-site-config/dist/dist/runtime/server",
-    "dev"
+    "../.output"
   ]
 }
