@@ -1,9 +1,16 @@
 <template>
-  <section class="mt-12 mb-8 bg-stone-900 text-stone-300 p-6 rounded-2xl relative overflow-hidden">
+  <section class="mt-12 mb-8 bg-stone-900 text-stone-300 p-6 rounded-2xl relative overflow-hidden" itemscope itemtype="https://schema.org/Restaurant">
+    <meta itemprop="name" content="La Choza de Leña" />
     <div class="absolute inset-0 opacity-10 bg-[url('https://www.transparenttextures.com/patterns/wood-pattern.png')]"></div>
     <div class="relative z-10 text-center">
-      <h2 class="text-2xl font-display font-bold text-white mb-2">Visítanos</h2>
-      <p class="text-sm mb-6">El mejor ambiente rústico en San Rafael Abajo.</p>
+      <h2 class="text-2xl font-display font-bold text-white mb-2">Visítanos en San Rafael Abajo</h2>
+      <p class="text-sm mb-4">El mejor restaurante de carnes a la parrilla en Desamparados, San José.</p>
+      <address class="not-italic text-xs text-stone-400 mb-4" itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+        <span itemprop="streetAddress">San Rafael Abajo</span>,
+        <span itemprop="addressLocality">Desamparados</span>,
+        <span itemprop="addressRegion">San José</span>,
+        <span itemprop="addressCountry">Costa Rica</span>
+      </address>
       <div class="flex justify-center gap-4 mb-6">
         <a class="w-10 h-10 rounded-full bg-stone-800 flex items-center justify-center text-primary hover:bg-stone-700 transition" href="https://www.facebook.com/lachozade.lena/?locale=es_LA" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
           <span class="material-icons-round">facebook</span>

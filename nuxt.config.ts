@@ -20,7 +20,7 @@ export default defineNuxtConfig({
       htmlAttrs: {
         lang: 'es', // Define el idioma del sitio
       },
-      title: 'La Choza de Leña - El Auténtico Sabor a Leña',
+      title: 'La Choza de Leña | Restaurante en San Rafael Abajo, Desamparados',
       charset: 'utf-8',
       viewport: 'width=device-width, initial-scale=1',
       link: [

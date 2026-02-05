@@ -12,7 +12,7 @@
         El Auténtico<br/> <span class="text-primary">Sabor a Leña</span>
       </h1>
       <p class="text-stone-300 text-sm md:text-base mb-6 max-w-xs drop-shadow-md">
-        Disfruta de nuestras carnes premium, chifrijos legendarios y el mejor ambiente familiar.
+        Restaurante de carnes a la parrilla y comida típica en San Rafael Abajo, Desamparados.
       </p>
       <div class="flex gap-4 w-full">
         <a class="flex-1 bg-primary text-white font-bold py-3 px-6 rounded-xl text-center shadow-lg hover:bg-orange-700 transition flex items-center justify-center gap-2" href="#menu">
