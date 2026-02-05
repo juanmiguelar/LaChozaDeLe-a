@@ -62,6 +62,9 @@
       "vite/client": [
         "../node_modules/vite/client"
       ],
+      "nuxt-site-config": [
+        "../node_modules/nuxt-site-config"
+      ],
       "nitropack/types": [
         "../node_modules/nitropack/types"
       ],
@@ -120,10 +123,22 @@
         "../node_modules/@nuxt/nitro-server/dist/runtime/utils/paths"
       ],
       "#sitemap": [
-        "../node_modules/@nuxtjs/sitemap/dist/runtime/types"
+        "../node_modules/@nuxtjs/sitemap/dist/runtime"
+      ],
+      "#sitemap/*": [
+        "../node_modules/@nuxtjs/sitemap/dist/runtime/*"
+      ],
+      "#site-config": [
+        "../node_modules/nuxt-site-config/dist/runtime"
+      ],
+      "#site-config/*": [
+        "../node_modules/nuxt-site-config/dist/runtime/*"
       ],
       "#robots": [
-        "./robots"
+        "../node_modules/@nuxtjs/robots/dist/runtime"
+      ],
+      "#robots/*": [
+        "../node_modules/@nuxtjs/robots/dist/runtime/*"
       ],
       "#image": [
         "../node_modules/@nuxt/image/dist/runtime"
@@ -134,14 +149,20 @@
       "#unhead/composables": [
         "../node_modules/nuxt/dist/head/runtime/composables/v3"
       ],
-      "#site-config": [
-        "../node_modules/nuxt-site-config/dist/runtime"
-      ],
-      "#site-config/*": [
-        "../node_modules/nuxt-site-config/dist/runtime/*"
-      ],
       "#internal/nuxt-site-config": [
-        "../node_modules/nuxt-site-config/dist/runtime/nitro/composable-barrel-deprecated"
+        "../node_modules/nuxt-site-config/dist/runtime/server/composable-barrel-deprecated"
+      ],
+      "#internal/nuxt-simple-robots": [
+        "../node_modules/@nuxtjs/robots/dist/runtime/server/composables"
+      ],
+      "#internal/nuxt-simple-robots/*": [
+        "../node_modules/@nuxtjs/robots/dist/runtime/server/composables/*"
+      ],
+      "#internal/nuxt-robots": [
+        "../node_modules/@nuxtjs/robots/dist/runtime/server/composables"
+      ],
+      "#internal/nuxt-robots/*": [
+        "../node_modules/@nuxtjs/robots/dist/runtime/server/composables/*"
       ]
     },
     "lib": [
@@ -160,8 +181,6 @@
     "../node_modules/nuxt-site-config/dist/dist/runtime/server",
     "../server/**/*",
     "../shared/**/*.d.ts",
-    "./module/nuxt-site-config.d.ts",
-    "./module/@nuxtjs-sitemap.d.ts",
     "./types/nitro.d.ts",
     "../**/*"
   ],

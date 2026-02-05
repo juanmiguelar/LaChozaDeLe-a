@@ -74,5 +74,16 @@ export default defineNuxtConfig({
   },
 
   // Habilita las herramientas de desarrollo de Vue
-  devtools: { enabled: true }
+  devtools: { enabled: true },
+
+  // Migrated from vite.config.ts
+  devServer: {
+    port: 3000,
+    host: '0.0.0.0',
+  },
+  runtimeConfig: {
+    public: {
+      geminiApiKey: process.env.GEMINI_API_KEY
+    }
+  }
 })

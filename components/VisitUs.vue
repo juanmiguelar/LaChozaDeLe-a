@@ -38,7 +38,7 @@
         </div>
       </div>
       <a href="https://maps.app.goo.gl/CEMFbdx8yG1RFgEt8" target="_blank" rel="noopener noreferrer" class="w-full h-32 bg-stone-800 rounded-lg overflow-hidden relative block group">
-        <img alt="Mapa de la ubicación del restaurante en San Rafael Abajo" class="w-full h-full object-cover opacity-60 grayscale group-hover:grayscale-0 transition duration-500" src="/public/image.png"/>
+        <img alt="Mapa de la ubicación del restaurante en San Rafael Abajo" class="w-full h-full object-cover opacity-60 grayscale group-hover:grayscale-0 transition duration-500" src="/image.png"/>
         <div class="absolute inset-0 flex items-center justify-center">
           <div class="bg-primary/90 text-white px-3 py-1 rounded-full text-xs font-bold flex items-center gap-1 shadow-lg transform group-hover:scale-105 transition-transform">
             <span class="material-icons-round text-sm">place</span> Ver Mapa

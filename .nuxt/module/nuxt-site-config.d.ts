@@ -19,25 +19,24 @@ declare module 'h3' {
   }
 }
 
+
 declare module '@nuxt/schema' {
-  interface AppConfigInput {
-    /** Theme configuration */
-    site?: import('../../node_modules/nuxt-site-config/dist/runtime/types').SiteConfigInput
-  }
   interface Nuxt {
     _siteConfig?: import('../../node_modules/nuxt-site-config/dist/runtime/types').SiteConfigStack
   }
 }
 declare module 'nuxt/app' {
   interface NuxtApp {
-     $nuxtSiteConfig: import('../../node_modules/nuxt-site-config/dist/runtime/types').SiteConfigResolved
+     $nuxtSiteConfig: import('../../node_modules/nuxt-site-config/dist/runtime/types').SiteConfigStack
   }
 }
 declare module '#app' {
   interface NuxtApp {
-    $nuxtSiteConfig: import('../../node_modules/nuxt-site-config/dist/runtime/types').SiteConfigResolved
+    $nuxtSiteConfig: import('../../node_modules/nuxt-site-config/dist/runtime/types').SiteConfigStack
   }
 }
+
+
 declare global {
   interface Window {
     __NUXT_SITE_CONFIG__: import('../../node_modules/nuxt-site-config/dist/runtime/types').SiteConfigResolved
