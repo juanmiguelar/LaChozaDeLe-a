@@ -58,9 +58,7 @@
             <p class="text-stone-300 text-sm mb-4">Arroz, frijoles tiernos, chicharron, pico de gallo y aguacate.</p>
             <div class="flex justify-between items-center">
               <span class="text-2xl font-bold text-primary">₡3.500</span>
-              <button class="bg-white/10 hover:bg-white/20 p-2 rounded-full transition">
-                <span class="material-icons-round text-sm">add</span>
-              </button>
+
             </div>
           </div>
         </div>

@@ -32,7 +32,7 @@ export default defineNuxtConfig({
       ],
       // Estilos en línea para evitar FOUC y configurar el scroll
       style: [
-        { children: 'html { scroll-behavior: smooth; }' }
+        { innerHTML: 'html { scroll-behavior: smooth; }' }
       ]
     }
   },
